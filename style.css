@@ -63,6 +63,8 @@ ul.news .meta { display: inline-block; min-width: 76px; margin: 0; }
 
 .entry .refs { margin: 10px 0 0; font-size: 13px; color: #777; line-height: 1.6; }
 
+.note { color: #666; font-size: 14px; background: #f8f9fb; border-left: 3px solid #ccd5df; padding: 8px 12px; }
+
 .placeholder { color: #999; font-style: italic; }
 
 /* ---------- footer ---------- */
