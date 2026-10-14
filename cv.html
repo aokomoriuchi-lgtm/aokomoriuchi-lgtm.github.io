@@ -8,13 +8,13 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="masthead">
     <div class="wrapper">
-      <a href="index.html" class="site-avatar"><img src="images/avatar.jpg" alt="Microglia (green) and neurons (red) in a rat brain culture" width="64" height="64"></a>
+      <a href="index.html" class="site-avatar" aria-hidden="true" tabindex="-1"><img src="images/avatar.jpg" alt="" width="46" height="46"></a>
       <div class="site-info">
         <a href="index.html" class="site-name">Ziyao Qing</a>
         <p class="site-description">Pharmaceutical Science &amp; Dementia Research</p>
@@ -23,82 +23,131 @@
         <a href="index.html">Home</a>
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
-        <a href="cv.html" class="active">CV</a>
+        <a href="cv.html" class="active" aria-current="page">CV</a>
       </nav>
     </div>
   </header>
 
-  <main class="wrapper wide prose">
+  <main class="wrapper">
     <h1>Curriculum Vitae</h1>
 
-    <h2>Education</h2>
-    <div class="entry">
-      <h3>Monash University</h3>
-      <p class="meta">Mar 2025 – Nov 2028 (expected) · Melbourne, Australia</p>
-      <p>Bachelor of Pharmaceutical Science Advanced (Honours), Scholars Program<br>
-        Monash Institute of Pharmaceutical Sciences (MIPS)<br>
-        Monash Dean's Scholar</p>
-    </div>
+    <section class="cv-section">
+      <h2>Education</h2>
+      <div class="cv-list">
+        <div class="cv-item">
+          <p class="when">Mar 2025 –<br>Nov 2028 (expected)</p>
+          <div>
+            <h3>Monash University</h3>
+            <p class="where">Melbourne, Australia</p>
+            <p>Bachelor of Pharmaceutical Science Advanced (Honours), Scholars Program<br>
+              Monash Institute of Pharmaceutical Sciences (MIPS)<br>
+              Monash Dean's Scholar</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Research experience</h2>
-    <div class="entry">
-      <h3>Undergraduate Research Assistant – Tohoku University</h3>
-      <p class="meta">Sep 2026 – present (part-time) · Sendai, Japan</p>
-      <p>Laboratory of Pharmacology, Graduate School of Pharmaceutical Sciences. Supervisor: Assoc. Prof. Nariko Arimura.<br>
-        Haematopoietic stem cells and the origins of dementia.</p>
-    </div>
-    <div class="entry">
-      <h3>Undergraduate Research Assistant – Shimane University</h3>
-      <p class="meta">Jun – Aug 2026 · Izumo, Japan</p>
-      <p>Department of Life Science (Chemistry), Faculty of Medicine. Supervisor: Assoc. Prof. Seiji Watanabe.<br>
-        Organelle-contact (ER–mitochondria/MAM) abnormalities in neurodegenerative disease models.</p>
-    </div>
-    <div class="entry">
-      <h3>Undergraduate Research Assistant – Institute of Science Tokyo</h3>
-      <p class="meta">Jan – Feb 2026 · Tokyo, Japan</p>
-      <p>Department of Pharmacology, Graduate School of Medical and Dental Sciences. Supervisor: Prof. Tomoyuki Furuyashiki.<br>
-        Ageing-induced senoinflammation in dementia (host lab is part of the AMED Moonshot Goal 7 Higuchi Project).</p>
-    </div>
-    <div class="entry">
-      <h3>Undergraduate Research Assistant – Tokyo Metropolitan University</h3>
-      <p class="meta">Dec 2025 – Jan 2026 · Tokyo, Japan</p>
-      <p>Laboratory of Molecular Neuroscience, Graduate School of Science. Supervisor: Prof. Kanae Ando.<br>
-        The role of the Alzheimer's-related kinase MARK4 in neuroinflammation.</p>
-    </div>
+    <section class="cv-section">
+      <h2>Research experience</h2>
+      <div class="cv-list">
+        <div class="cv-item">
+          <p class="when">Sep 2026 – present<br>(part-time)</p>
+          <div>
+            <h3>Undergraduate Research Assistant, Tohoku University</h3>
+            <p class="where">Sendai, Japan</p>
+            <p>Laboratory of Pharmacology, Graduate School of Pharmaceutical Sciences. Supervisor: Assoc. Prof. Nariko
+              Arimura.<br>Haematopoietic stem cells and the origins of dementia.</p>
+          </div>
+        </div>
+        <div class="cv-item">
+          <p class="when">Jun – Aug 2026</p>
+          <div>
+            <h3>Undergraduate Research Assistant, Shimane University</h3>
+            <p class="where">Izumo, Japan</p>
+            <p>Department of Life Science (Chemistry), Faculty of Medicine. Supervisor: Assoc. Prof. Seiji Watanabe.<br>
+              Organelle-contact (ER–mitochondria/MAM) abnormalities in neurodegenerative disease models.</p>
+          </div>
+        </div>
+        <div class="cv-item">
+          <p class="when">Jan – Feb 2026</p>
+          <div>
+            <h3>Undergraduate Research Assistant, Institute of Science Tokyo</h3>
+            <p class="where">Tokyo, Japan</p>
+            <p>Department of Pharmacology, Graduate School of Medical and Dental Sciences. Supervisor: Prof. Tomoyuki
+              Furuyashiki.<br>Ageing-induced senoinflammation in dementia (host lab is part of the AMED Moonshot Goal 7
+              Higuchi Project).</p>
+          </div>
+        </div>
+        <div class="cv-item">
+          <p class="when">Dec 2025 – Jan 2026</p>
+          <div>
+            <h3>Undergraduate Research Assistant, Tokyo Metropolitan University</h3>
+            <p class="where">Tokyo, Japan</p>
+            <p>Laboratory of Molecular Neuroscience, Graduate School of Science. Supervisor: Prof. Kanae Ando.<br>
+              The role of the Alzheimer's-related kinase MARK4 in neuroinflammation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Honours &amp; awards</h2>
-    <div class="entry">
-      <h3>Undergraduate Research Scholarship</h3>
-      <p class="meta">Nov 2025 · Faculty of Science, Tokyo Metropolitan University</p>
-      <p>JPY 80,000 per month in support of undergraduate research.</p>
-    </div>
-    <div class="entry">
-      <h3>Monash Dean's Scholarship</h3>
-      <p class="meta">Mar 2025 · Monash University</p>
-      <p>Ongoing scholarship of AUD 6,000 per year awarded to high-achieving commencing students.</p>
-    </div>
+    <section class="cv-section">
+      <h2>Honours &amp; awards</h2>
+      <div class="cv-list">
+        <div class="cv-item">
+          <p class="when">Nov 2025</p>
+          <div>
+            <h3>Undergraduate Research Scholarship</h3>
+            <p class="where">Faculty of Science, Tokyo Metropolitan University</p>
+            <p>JPY 80,000 per month in support of undergraduate research.</p>
+          </div>
+        </div>
+        <div class="cv-item">
+          <p class="when">Mar 2025</p>
+          <div>
+            <h3>Monash Dean's Scholarship</h3>
+            <p class="where">Monash University</p>
+            <p>Ongoing scholarship of AUD 6,000 per year awarded to high-achieving commencing students.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Professional memberships</h2>
-    <ul class="plain">
-      <li>Neuroimmunology Australia – Student member</li>
-      <li>International Society of Neuroimmunology – Trainee member</li>
-      <li>Japanese Biochemical Society (日本生化学会) – Student member</li>
-      <li>The Japanese Society for Chemical Biology (日本ケミカルバイオロジー学会) – Student member</li>
-      <li>Japan-Taiwan Biotech Association (日本台湾生物技術協会) – Member</li>
-    </ul>
+    <section class="cv-section">
+      <h2>Professional memberships</h2>
+      <ul class="cv-plain">
+        <li>Neuroimmunology Australia <span>– Student member</span></li>
+        <li>International Society of Neuroimmunology <span>– Trainee member</span></li>
+        <li>Japanese Biochemical Society (日本生化学会) <span>– Student member</span></li>
+        <li>The Japanese Society for Chemical Biology (日本ケミカルバイオロジー学会) <span>– Student member</span></li>
+        <li>Japan-Taiwan Biotech Association (日本台湾生物技術協会) <span>– Member</span></li>
+      </ul>
+    </section>
 
-    <h2>Research interests</h2>
-    <p>Dementia · Microglia · Neuroinflammation · Brain–bone marrow axis · Tau pathology · Glymphatic system · Brain ageing · Drug discovery</p>
+    <section class="cv-section">
+      <h2>Research interests</h2>
+      <ul class="tags">
+        <li>Dementia</li>
+        <li>Microglia</li>
+        <li>Neuroinflammation</li>
+        <li>Brain–bone marrow axis</li>
+        <li>Tau pathology</li>
+        <li>Glymphatic system</li>
+        <li>Brain ageing</li>
+        <li>Drug discovery</li>
+      </ul>
+    </section>
   </main>
 
   <footer>
     <div class="wrapper">
-      <div class="links">
-        <a href="https://www.linkedin.com/in/ziyaoqing8964/">LinkedIn</a>
-        <a href="https://www.researchgate.net/profile/Ziyao-Qing">ResearchGate</a>
+      <div class="foot">
+        <span>&copy; 2026 Ziyao Qing, Melbourne</span>
+        <span class="links">
+          <a href="https://www.linkedin.com/in/ziyaoqing8964/">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Ziyao-Qing">ResearchGate</a>
+        </span>
       </div>
-      © 2026 Ziyao Qing · Melbourne, Australia
-      <p class="credit">Header image: cropped from <a href="https://commons.wikimedia.org/wiki/File:Microglia_and_neurons.jpg">“Microglia and neurons”</a> (rat brain culture; microglia in green, neuronal processes in red) by GerryShaw / EnCor Biotechnology Inc., <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
+      <p class="credit">Micrograph in the header: <a href="https://commons.wikimedia.org/wiki/File:Microglia_and_neurons.jpg">&ldquo;Microglia and neurons&rdquo;</a> by GerryShaw / EnCor Biotechnology Inc., <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
     </div>
   </footer>
 </body>

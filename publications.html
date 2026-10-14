@@ -8,13 +8,13 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="masthead">
     <div class="wrapper">
-      <a href="index.html" class="site-avatar"><img src="images/avatar.jpg" alt="Microglia (green) and neurons (red) in a rat brain culture" width="64" height="64"></a>
+      <a href="index.html" class="site-avatar" aria-hidden="true" tabindex="-1"><img src="images/avatar.jpg" alt="" width="46" height="46"></a>
       <div class="site-info">
         <a href="index.html" class="site-name">Ziyao Qing</a>
         <p class="site-description">Pharmaceutical Science &amp; Dementia Research</p>
@@ -22,37 +22,45 @@
       <nav aria-label="Main">
         <a href="index.html">Home</a>
         <a href="research.html">Research</a>
-        <a href="publications.html" class="active">Publications</a>
+        <a href="publications.html" class="active" aria-current="page">Publications</a>
         <a href="cv.html">CV</a>
       </nav>
     </div>
   </header>
 
-  <main class="wrapper wide prose">
+  <main class="wrapper">
     <h1>Publications</h1>
+    <p class="intro-line">Publications and conference presentations will be listed here as they appear. You can also
+      follow my <a href="https://www.researchgate.net/profile/Ziyao-Qing">ResearchGate profile</a>.</p>
 
-    <p>Publications and conference presentations will be listed here as they appear. You can also follow my
-      <a href="https://www.researchgate.net/profile/Ziyao-Qing">ResearchGate profile</a>.</p>
+    <section class="cv-section">
+      <h2>Journal articles</h2>
+      <p class="placeholder">Coming soon.</p>
+      <!-- Example entry:
+      <div class="cv-item">
+        <p class="when">2027</p>
+        <div><p><strong>Qing Z</strong>, Coauthor A, Coauthor B. Title of the paper. <em>Journal Name</em>.
+          <a href="https://doi.org/xxxx">DOI</a></p></div>
+      </div>
+      -->
+    </section>
 
-    <h2>Journal articles</h2>
-    <p class="placeholder">Coming soon.</p>
-    <!-- Example entry:
-    <p><strong>Qing Z</strong>, Coauthor A, Coauthor B. Title of the paper. <em>Journal Name</em> (2026).
-      <a href="https://doi.org/xxxx">[DOI]</a></p>
-    -->
-
-    <h2>Conference presentations</h2>
-    <p class="placeholder">Coming soon.</p>
+    <section class="cv-section">
+      <h2>Conference presentations</h2>
+      <p class="placeholder">Coming soon.</p>
+    </section>
   </main>
 
   <footer>
     <div class="wrapper">
-      <div class="links">
-        <a href="https://www.linkedin.com/in/ziyaoqing8964/">LinkedIn</a>
-        <a href="https://www.researchgate.net/profile/Ziyao-Qing">ResearchGate</a>
+      <div class="foot">
+        <span>&copy; 2026 Ziyao Qing, Melbourne</span>
+        <span class="links">
+          <a href="https://www.linkedin.com/in/ziyaoqing8964/">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Ziyao-Qing">ResearchGate</a>
+        </span>
       </div>
-      © 2026 Ziyao Qing · Melbourne, Australia
-      <p class="credit">Header image: cropped from <a href="https://commons.wikimedia.org/wiki/File:Microglia_and_neurons.jpg">“Microglia and neurons”</a> (rat brain culture; microglia in green, neuronal processes in red) by GerryShaw / EnCor Biotechnology Inc., <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
+      <p class="credit">Micrograph in the header: <a href="https://commons.wikimedia.org/wiki/File:Microglia_and_neurons.jpg">&ldquo;Microglia and neurons&rdquo;</a> by GerryShaw / EnCor Biotechnology Inc., <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
     </div>
   </footer>
 </body>
