@@ -65,6 +65,8 @@ ul.news .meta { display: inline-block; min-width: 76px; margin: 0; }
 
 /* ---------- footer ---------- */
 footer { border-top: 1px solid #eee; margin-top: 60px; padding: 24px 0 40px; color: #999; font-size: 14px; }
+footer .credit { margin: 8px 0 0; font-size: 12px; color: #aaa; }
+footer .credit a { color: #999; text-decoration: underline; }
 footer .links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 8px; }
 
 @media (max-width: 600px) {

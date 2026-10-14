@@ -9,7 +9,8 @@ Plain static HTML/CSS site for GitHub Pages (no build step).
 | `publications.html` | Publications |
 | `cv.html` | CV |
 | `style.css` | Shared styles |
-| `images/avatar.svg` | Placeholder avatar – replace with `images/avatar.jpg` and update the `<img src>` in each page |
+| `images/avatar.jpg` | Header image (128 px) – cropped from [“Microglia and neurons”](https://commons.wikimedia.org/wiki/File:Microglia_and_neurons.jpg) by GerryShaw / EnCor Biotechnology Inc., [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Keep the credit line in each page footer if you keep this image. |
+| `images/favicon.png` | Browser-tab icon (same image, 64 px) |
 
 ## Deploy to GitHub Pages
 
