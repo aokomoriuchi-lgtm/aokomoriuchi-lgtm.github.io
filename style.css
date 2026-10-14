@@ -115,6 +115,10 @@ ul.news .meta { margin: 0; padding-top: 2px; }
 .fig figcaption { font-size: 14px; line-height: 1.5; color: var(--muted); margin-top: 12px; }
 .fig figcaption b { color: var(--ink); font-weight: 600; }
 .fig .credit { display: block; margin-top: 6px; font-size: 13px; }
+.figs { display: grid; gap: 16px; }
+.fig img.square { max-width: 300px; }
+.fig-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 28px 0 22px; align-items: start; }
+.fig-row .fig img { max-height: 340px; width: auto; }
 
 .thoughts {
   margin: 28px 0 0; padding: 18px 22px; background: var(--neurite-soft);
@@ -140,5 +144,6 @@ footer .credit a { color: #6f7d7f; }
   .site-name { font-size: 26px; }
   .ways { grid-template-columns: 1fr; }
   .theme-body { grid-template-columns: 1fr; gap: 20px; }
+  .fig-row { grid-template-columns: 1fr; }
   .theme { margin-top: 40px; padding-top: 30px; }
 }
